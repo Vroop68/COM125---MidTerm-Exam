@@ -1,0 +1,28 @@
+/* custom syle sheet */
+
+.navbar {
+    opacity: 0.8;
+}
+
+#MainTitle {
+    font-size: 4em;
+    color: #5690CF;
+    padding-top: 1em
+}
+
+main {
+    padding-top: 4.375em
+}
+
+article, section {
+    font-size: 1.35em;
+}
+
+#contactForm {
+    margin-bottom: 4em;
+}
+/* Johns CSS starts here*/
+#MilosHouses{
+    width: auto;
+    height: 100%;
+}
