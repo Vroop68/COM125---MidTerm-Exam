@@ -1,3 +1,4 @@
+//John Knoop COMP-125 Midterm Exam custom JavaScript
 // setup your IIFE (Immediately Invoked Function Expression)
 (function () {
 "use strict";
@@ -6,6 +7,7 @@
 // YOUR CODE GOES HERE
 
 function SPA(){
+    //Java script for injecting info about islands
     let IntroParagraph=document.getElementById("IntroParagraph");
     IntroParagraph.textContent="Now is the time to travel to Greece. The country may be going through an economic crisis, but many travellers say that it hasn't impacted the experience of visiting. Plus, there may be some great deals. Greece has 1,400 islands, though only 230 of them are inhabited. And while everyone knows about Santorini and Mykonos, there are gorgeous lesser-known islands in Greece, too.";
 
@@ -36,7 +38,20 @@ function SPA(){
     let Gavdos=document.getElementById("Gavdos");
     Gavdos.textContent="Near the more well-known Crete, Gavdos is the most southern island in Greece — and the most southern spot in Europe discounting the Canaries. Only accessible by ferry, the remote island has only about 50 permanent residents, and can feel like your private playground. Local legend has it that the island was the home of goddess Calypso, who kept Odysseus prisoner here. Today, a favorite tourist activity is to visit the spot believed to be her cave. Be warned, you won't find any luxury hotels here. While the romantically under-developed, super laid back island has a number of rooms for rent, those are limited, as the real draw here for many is the free, seaside camping.";
     
-
+    //contact form JS for storing variable then displaying in console
+    let firstNameInput=document.getElementById("firstNameInput");
+    let lastNameInput=document.getElementById("lastNameInput");
+    let phoneInput=document.getElementById("phoneInput");
+    let emailInput=document.getElementById("emailInput");
+    let commentsInput=document.getElementById("commentsInput")
+    document.querySelector('form.MidtermForm').addEventListener('submit', function(event){
+        event.preventDefault();
+        console.log("First Name:" + (firstNameInput.value));
+        console.log("Last Name:" + (lastNameInput.value));
+        console.log("Phone #:" + (phoneInput.value));
+        console.log("Email:" + (emailInput.value));
+        console.log("Comments:" + (commentsInput.value));
+    });
 }
 
 

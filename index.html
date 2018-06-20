@@ -57,7 +57,7 @@
         <article class="row">
             <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Folegandros</h2>
             <img class="pictureScaling" src="Assets/images/folegandros.jpg" alt="Folegandros">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10 pictureScaling" id="Folegandros">
+            <p class="col-md-4 col-xs-offset-1 col-xs-10" id="Folegandros">
                 <!-- Inject your Folegandros paragraph here -->
             </p>
         </article>
@@ -151,26 +151,26 @@
                         <h3 class="panel-title">Contact Us</h3>
                     </div>
                     <div class="panel-body">
-                        <form id="contactForm" class="form">
+                        <form id="contactForm" class="MidtermForm">
                             <div class="form-group">
                                 <label for="firstName">First Name</label>
-                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
+                                <input id="firstNameInput"type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
                             </div>
                             <div class="form-group">
                                 <label for="lastName">Last Name</label>
-                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
+                                <input id="lastNameInput" type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="contactNumber">Contact Number</label>
-                                <input type="tel" class="form-control" id="contactNumber" name="email" placeholder="Contact Number" required>
+                                <input id="phoneInput" type="tel" class="form-control" id="contactNumber" name="email" placeholder="Contact Number" required>
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="email">Email</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                                <input id="emailInput" type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                             </div>
                             <div class="form-group">
                                 <label for="comments">Your Message</label>
-                                <textarea class="form-control" rows="5" id="yourMessage" name="comments" placeholder="Enter Your Comments Here" required></textarea>
+                                <textarea id="commentsInput" class="form-control" rows="5" id="yourMessage" name="comments" placeholder="Enter Your Comments Here" required></textarea>
                             </div>
                             <div class="text-right">
                                 <button id="sendButton" type="submit" class="btn btn-primary">Send</button>

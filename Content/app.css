@@ -1,3 +1,4 @@
+/*John Knoop COMP-125 Midterm Exam custom CSS*/
 /* custom syle sheet */
 
 .navbar {
@@ -22,6 +23,7 @@ article, section {
     margin-bottom: 4em;
 }
 /* Johns CSS starts here*/
+/*Allowing the picture to scale based on viewport. Also shrinking them to allow better alignment with text*/
 .pictureScaling
 {
     max-width:500px;
@@ -30,11 +32,8 @@ article, section {
     height: auto;
     
 }
+/*Centering the page*/
 #mainContent
 {
     text-align: center;
-}
-#test
-{
-    float: right;
 }
