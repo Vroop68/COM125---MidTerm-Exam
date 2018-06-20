@@ -22,7 +22,19 @@ article, section {
     margin-bottom: 4em;
 }
 /* Johns CSS starts here*/
-#MilosHouses{
+.pictureScaling
+{
+    max-width:500px;
+    max-height:400px;
     width: auto;
-    height: 100%;
+    height: auto;
+    
+}
+#mainContent
+{
+    text-align: center;
+}
+#test
+{
+    float: right;
 }
